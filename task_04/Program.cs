@@ -51,12 +51,12 @@ for (int i = 0; i < array2D.GetLength(0); i++)
 }
 Console.WriteLine($"позиция минимального элемента ({minLine}, {minCol})");
 
-int[,] array2D2 = new int[array2D.GetLength(0) - 1, array2D.GetLength(1) - 1];
-    for (int i = 0; i < array2D2.GetLength(0); i++)
-    {
-        for (int j = 0; j < array2D2.GetLength(0); j++)
-        {   
-            if 
-            array[i, j] = new Random().Next(1, 10);
-        }
-    }
+// int[,] array2D2 = new int[array2D.GetLength(0) - 1, array2D.GetLength(1) - 1];
+//     for (int i = 0; i < array2D2.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < array2D2.GetLength(0); j++)
+//         {   
+//             if 
+//             array[i, j] = new Random().Next(1, 10);
+//         }
+//     }
